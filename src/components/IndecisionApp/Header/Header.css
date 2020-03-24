@@ -1,0 +1,23 @@
+.Head {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border-bottom: 10px solid black;
+  text-align: center;
+  padding: 10px 0px;
+  width: 100vw;
+  font-size: 1.2rem;
+}
+.Head h4 {
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+@media screen and (max-width: 500px) {
+  .Head {
+    padding: 5px 0;
+    font-size: 0.8rem;
+  }
+  .Head h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}

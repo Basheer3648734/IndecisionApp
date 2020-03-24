@@ -1,0 +1,46 @@
+.option {
+  width: 90%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  background-color: rgb(168, 167, 167);
+  box-sizing: border-box;
+  align-content: center;
+  position: relative;
+  height: 45px;
+}
+.option li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0;
+  /* width: 60%; */
+  /* overflow-x: auto; */
+  position: relative;
+  left: 0px;
+}
+.option button {
+  margin: 0;
+  background-color: white;
+  color: black;
+  position: relative;
+  right: -10px;
+  border: none;
+  border-bottom: 3px solid silver;
+}
+@media screen and (max-width: 500px) {
+  .option {
+    padding: 2px 0;
+    overflow-x: auto;
+    height: 30px;
+  }
+  .option li {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 3px 0;
+  }
+  .option button {
+    font-size: 1rem;
+  }
+}

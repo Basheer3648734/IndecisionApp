@@ -1,0 +1,43 @@
+.options-div {
+  background-color: rgb(160, 146, 146);
+  width: 80vw;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1rem;
+  /* margin: auto; */
+  /* padding: 5px 0; */
+  margin: 15px auto;
+  text-align: center;
+}
+.options-div h2 {
+  background-color: rgb(53, 52, 52);
+  color: white;
+  padding: 5px 0;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: 800;
+}
+.options {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 0;
+}
+.noList {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+}
+@media screen and (max-width: 500px) {
+  .options-div h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .options {
+    padding: 5px 0;
+  }
+  .noList {
+    font-size: 1rem;
+  }
+}
